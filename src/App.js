@@ -9,7 +9,7 @@ function App() {
       
       <Navbar />
 
-      <div>
+      <div className="container">
         <TaskList title="Pendente"/>
         <TaskList title="Fazendo"/>
         <TaskList title="Completa"/>

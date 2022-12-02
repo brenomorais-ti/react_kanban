@@ -1,6 +1,5 @@
 import React from "react";
 import './tasklist.css';
-import { ReactPropTypes } from "react";
 
 function TaskList( { title } ) {
     return(
@@ -12,7 +11,3 @@ function TaskList( { title } ) {
 }
 
 export default TaskList;
-
-TaskList.PropTypes = {
-    title: ReactPropTypes.string.isRequired
-};
