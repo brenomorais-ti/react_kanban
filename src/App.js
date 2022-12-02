@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css"
 import Navbar from "./components/Navbar/Navbar";
+import TaskList from "./components/TaskList/TaskList";
 
 function App() {  
   return (
@@ -8,13 +9,11 @@ function App() {
       
       <Navbar />
 
-      <ul className="lista">
-        <li>Breno</li>
-        <li>Neto</li>
-        <li>Lairton</li>
-        <li>Dorneles</li>
-      </ul>
-      
+      <div>
+        <TaskList title="Pendente"/>
+        <TaskList title="Fazendo"/>
+        <TaskList title="Completa"/>
+      </div>      
     </div>
   );
 }
